@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDEDED">
+
+    <TextView
+        android:id="@+id/time1"
+        android:layout_width="58dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Time"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="173dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/time1"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="asd" />
+
+    <TextView
+        android:id="@+id/mem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Member"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/time1" />
+
+    <TextView
+        android:id="@+id/des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Destination"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/memb" />
+
+    <ListView
+        android:id="@+id/dest"
+        android:layout_width="0dp"
+        android:layout_height="177dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/des" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="ADD"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dest" />
+
+    <Button
+        android:id="@+id/dele"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="DELETE"
+        app:layout_constraintStart_toEndOf="@+id/chat"
+        app:layout_constraintTop_toBottomOf="@+id/dest" />
+
+    <ListView
+        android:id="@+id/memb"
+        android:layout_width="0dp"
+        android:layout_height="129dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mem">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/chat"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="chat"
+        app:layout_constraintStart_toEndOf="@+id/add"
+        app:layout_constraintTop_toBottomOf="@+id/dest" />
+
+</android.support.constraint.ConstraintLayout>

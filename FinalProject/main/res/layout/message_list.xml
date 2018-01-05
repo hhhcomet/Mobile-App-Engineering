@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="9"
+        android:columnCount="8"
+        android:rowCount="1">
+
+
+        <TextView
+            android:id="@+id/user_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/time_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="7"
+            android:layout_row="0"
+            android:text="TextView" />
+
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/message_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="1"
+            android:text="TextView"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+</LinearLayout>

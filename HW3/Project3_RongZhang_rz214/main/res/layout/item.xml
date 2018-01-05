@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/longtmp"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="hhh" />
+
+        <TextView
+            android:id="@+id/latitmp"
+            android:layout_width="198dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="hhh" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/addtmp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hhhhhhh" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/timetmp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hhhhh" />
+
+        </LinearLayout>
+
+</LinearLayout>

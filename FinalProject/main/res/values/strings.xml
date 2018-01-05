@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Final3</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="title">Do you want to delete this trip?</string>
+    <array name="choose_exp">
+        <item>...in a map!</item>
+        <item>...in your Internet Explorer!</item>
+    </array>
+    <string name="title_activity_maps">Map</string>
+</resources>
